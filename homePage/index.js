@@ -14,6 +14,7 @@ let maxNum = 50
 let minNum = 1
 let mysterioNum = Math.floor(Math.random(maxNum * minNum) * maxNum);
 
+lifeDisplay.textContent = `Lives: ${lives}`
 console.log(mysterioNum);
 
 
